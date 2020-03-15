@@ -91,7 +91,41 @@ margin-left: 10px;
     height: 40px;
 }
 
+.post-actions-icons svg{
+    margin-right: 6px;
+}
+
 .last-icon{
     display: flex;
     align-items: center;
+}
+
+.post-coments-likes{
+  display: flex;  
+  align-items: center;
+ 
+}
+
+.post-coments-likes span{
+    margin-left: 6px;
+}
+
+.post-coments img{
+    border-radius: 50%;
+}
+
+.post-coments img p a{
+    margin-right: 6px;
+}
+
+.coments-likes{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coments-likes svg{
+    height: 12px;
+    width: 12px;
 }

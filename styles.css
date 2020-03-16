@@ -243,6 +243,7 @@ margin-left: 10px;
 }
  .name-profile{
     margin-left: 6px;
+    line-height: 8PX;
  }
 
 .name-profile-1{
@@ -255,9 +256,76 @@ margin-left: 10px;
     color: #999999;
 }
 
+.box{
+    margin-top: 12px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
 .box-profile-suggestions{
     width: 293px;
     height: 569px;
     margin-left: 30px;
-    border: 1px solid #999999;
+    
+
+}
+
+.box-suggestions{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 6px 12px 6px;
+}
+
+.box-suggestions-2{
+    font-size: 14px;
+    color: #999999;
+    font-weight: bolder;
+}
+
+.link-see-all a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.box-suggestions-img-profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+
+.follow-link{
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.follower-suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follower-suggestion-2{
+    display: flex;
+    
+}
+
+.name-profile-follow{
+    margin-left: 6px;
+    line-height: 8PX;
+}
+
+.links-the-end{
+    line-height: 16px;
+    margin-top: 12px;
+
+}
+.links-the-end a{
+    font-size: 12px;
+    text-decoration: none;
+    color: lightgray;
+    
 }

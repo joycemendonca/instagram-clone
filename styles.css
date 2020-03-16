@@ -50,6 +50,9 @@ margin-left: 10px;
 
 .post{
     width: 614px;
+    border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 .post-header{
     
@@ -89,6 +92,8 @@ margin-left: 10px;
     align-items: center;
     justify-content: space-between;
     height: 40px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .post-actions-icons svg{
@@ -103,6 +108,7 @@ margin-left: 10px;
 .post-coments-likes{
   display: flex;  
   align-items: center;
+  margin-left: 6px;
  
 }
 
@@ -119,6 +125,7 @@ margin-left: 10px;
 }
 
 .coments-likes{
+    margin-left: 6px;
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -128,4 +135,28 @@ margin-left: 10px;
 .coments-likes svg{
     height: 12px;
     width: 12px;
+}
+
+.post-time{
+    color: #999999;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.post-input{
+    color: #999999;
+    font-size: 15px;
+    
+
+}
+
+.post-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    margin: 4px 0px 0px;
+    padding: 0px 16px;
+    border-top:1px solid rgba(var(--b6a,219,219,219),1);
+    
 }

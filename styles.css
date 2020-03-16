@@ -48,8 +48,50 @@ margin-left: 10px;
 
 }
 
-.post{
+.posts-stories-post{
     width: 614px;
+}
+
+.stories{
+    width: 614px;
+    height: 104px;
+    background-color: #fff;
+    border-radius: 3px;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    margin-bottom: 24px;
+    padding: 10px 0px;
+   display: flex;
+
+}
+
+.story{
+    width: 80px;
+    height: 104px;
+    text-align: center;
+    margin-left: 6px;
+}
+
+.stories img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+ 
+    
+}
+
+.stories p{
+    font-size: 12px;
+
+    margin-top: 3px;
+    margin-bottom: 6px;
+    
+}
+
+.post{
+    border-radius: 3px;
     border-left: 1px solid rgba(var(--b6a,219,219,219),1);
     border-right: 1px solid rgba(var(--b6a,219,219,219),1);
     border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
@@ -94,6 +136,7 @@ margin-left: 10px;
     height: 40px;
     margin-left: 6px;
     margin-right: 6px;
+
 }
 
 .post-actions-icons svg{
@@ -132,9 +175,20 @@ margin-left: 10px;
     justify-content: space-between;
 }
 
+.post-coments-span a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
 .coments-likes svg{
     height: 12px;
     width: 12px;
+}
+
+.coments-likes p a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .post-time{
@@ -143,11 +197,18 @@ margin-left: 10px;
     margin-left: 6px;
 }
 
-.post-input{
+.post-input input{
     color: #999999;
     font-size: 15px;
-    
+    border: none;
+    background: none;
 
+}
+
+.post-search a{
+    color: lightblue;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .post-search{
